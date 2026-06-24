@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & cache
+data/
+mel_cache/
+
+# Generated artifacts
+*.png
+vocoder_epoch0010.pt
+vocoder_final.pt
+generate_report.py
+
+# Jupyter
+.ipynb_checkpoints/
